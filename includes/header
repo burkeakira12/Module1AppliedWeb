@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-eqiv="X-UA-Compatible" content="ie=edge">
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<title>PHP Primer - <?php echo $title ?></title>
+
+</head>
+
+<body>
+
+<h2>Follow each link to page example</h2>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.php">Simple PHP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="array.php">Arrays</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Manipulation
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="stringmanipulation.php">String Manipulation</a>
+          <a class="dropdown-item" href="datetimemanipulation.php">Date Time Manipulation</a>
+        </div>
+        <li class="nav-item">
+        <a class="nav-link" href="forloop.php">For Loop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="functions.php">Functions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ifstatement.php">If Statements</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="switchstatement.php">Switch Statement</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="whiledowhileloop.php">While/Do While</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
